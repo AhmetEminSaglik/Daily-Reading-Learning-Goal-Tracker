@@ -1,0 +1,175 @@
+.table-with-outside {
+    margin: 0 5% 5% 20%;
+}
+
+
+.special-table table,
+th,
+td {
+    border: 2px solid #333;
+
+}
+
+tbody tr th,
+thead tr th,
+tfoot tr th {
+    padding: 5px 3px;
+    text-align: center;
+}
+
+tbody tr {
+    color: white;
+
+}
+
+tbody tr td select,
+tbody tr td input {
+    color: black;
+
+    padding: 5px;
+
+
+}
+
+tbody tr td select:hover,
+tbody tr td input:hover {
+    background-color: lightgrey;
+    color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: black;
+}
+
+tbody tr td input:hover {
+    border: 2px solid black;
+}
+
+tbody tr td option {
+    color: crimson;
+}
+
+.special-table {
+    width: 95%;
+
+    max-width: 100%;
+    border-collapse: collapse;
+    margin-left: 2.5%;
+    background-color: #1e272e;
+
+}
+
+.special-table th {
+    height: 50px;
+    font-size: 20px;
+    border: 3px solid #808e9b;
+}
+
+.special-table td {
+    height: 30px;
+    font-size: 18px;
+    border: 3px solid #808e9b;
+    padding-left: 10px;
+
+    /* eğer sutunların widthleri kayarsa bunu aktif et
+    max-width: 10px;*/
+}
+
+.special-table tr:hover:not(.not-hover) {
+    background-color: #d2dae2;
+    color: Black;
+
+}
+
+tfoot tr th a {
+    color: brown;
+    text-decoration: none;
+}
+
+
+td:first-child {
+    width: 15%;
+    text-align: center;
+    margin: 2px;
+    padding: 2px;
+    font-size: 17px;
+
+}
+
+.td-bigger {
+    width: 22.5%;
+    max-width: 22.5%;
+    min-width: 22.5%;
+}
+
+.table-with-outside h3 {
+    color: #30336b;
+    font-size: 25px;
+    /* margin-left: 34%; */
+    width: 90%;
+    text-align: center;
+
+
+
+}
+
+.Ekle a {
+    color: greenyellow;
+    font-size: 22px !important;
+    text-decoration: none;
+}
+
+tr .Ekle:hover,
+tr .Sil:hover {
+    background-color: #aaa69d;
+}
+
+
+.Ekle a:hover,
+.Sil a:hover {
+    color: orangered;
+
+    text-decoration: none;
+}
+
+
+
+.Sil a {
+    color: red;
+    font-size: 22px !important;
+    text-decoration: none;
+}
+
+.form-button {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+
+}
+
+tfoot th button {
+    font-size: 20px;
+    cursor: pointer;
+    color: orangered;
+    font-weight: bold;
+}
+
+tfoot th button:hover {
+    color: purple;
+}
+
+thead tr th,
+tfoot tr:nth-child(2) {
+    color: peru;
+}
+
+#split-tables {
+
+    height: 2px;
+    background-color: black;
+    border: none;
+
+}
+table tr td meter::-webkit-meter-optimum-value {
+    background: lime; /* Green */
+    
+}

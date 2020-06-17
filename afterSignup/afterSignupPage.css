@@ -1,0 +1,41 @@
+ .Signup-info {
+     border: dodgerblue 5px solid;
+     text-align: center;
+     width: 50%;
+     font-size: 30px;
+     margin: 1.25% 25% 25% 25%;
+     color: white;
+     background-color: grey;
+     opacity: 0.9;
+     text-transform: capitalize;
+ }
+
+ .Signup-info>h3 {
+     color: greenyellow;
+ }
+
+ .Signup-info>p {
+     color: indigo;
+     font-style: italic;
+ }
+
+ .Signedup-info {
+     border: red 5px solid;
+     text-align: center;
+     width: 50%;
+     font-size: 30px;
+     margin: 0% 25% 25% 25%;
+     color: white;
+     background-color: tomato;
+     opacity: 0.7;
+     text-transform: capitalize;
+ }
+
+ .Signedup-info>h3 {
+     color: snow
+ }
+
+ .Signedup-info>p {
+     font-size: 20px;
+     color: blue
+ }

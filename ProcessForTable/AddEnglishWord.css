@@ -1,0 +1,101 @@
+ .WordAddBox {
+     border: 3px solid coral;
+     margin: 3% 10% 3%;
+     padding: 1.25%;
+     width: 78%;
+     overflow: hidden;
+
+
+
+
+ }
+
+ .Explanation-Input {
+     color: indigo;
+     width: 30%;
+     float: left;
+     font-size: 20px;
+     line-height: 300%;
+     font-weight: bold;
+     text-transform: capitalize;
+ }
+
+ .WordAddBox select {
+     margin : 1.2% 0 0 3%;
+     padding: 1.2% 2%;
+     width: 60%;
+    text-align: center;
+    font-size: 17px;
+}
+/* 
+.WordAddBox select:first-child{
+    color :red;
+
+} */
+
+
+.WordAddBox option{
+    color:blue;
+    font-size: 15px;
+}
+ 
+ .Input-text {
+     margin: 1.5% 0 0 3%;
+     width: 40%;
+     padding: 1% 0;
+     text-align: center;
+     font-size: 1em;
+     font-weight: 400;
+ }
+
+ .Input-textArea {
+     margin-left: 3%;
+     font-size: 1.2em;
+     max-height: 9%;
+     max-width: 65%;
+     min-height: 9%;
+     min-width: 65%;
+
+ }
+
+ .iki-nokta {
+     float: right;
+ }
+
+
+ .WordAddBox:hover {
+     background-color: #c5ccff;
+ }
+
+ p {
+     text-align: center;
+     color: red;
+     font-size: 2em;
+     margin-bottom: -2%;
+     font-weight: bolder;
+ }
+
+ .Button {
+     margin: 1% 40% 1%;
+     padding: 1.25%;
+     width: 20%;
+     overflow: hidden;
+     font-size: 1.2em;
+     font-weight: 500;
+     background-color: salmon;
+     outline: none;
+     cursor: pointer;
+ }
+
+ .Button:hover {
+     background-color: rgb(0, 255, 0);
+     border: 3px groove black;
+     outline: none;
+ }
+
+ .Button:active {
+     background-color: blue;
+     border: 3px groove black;
+ 
+
+ }

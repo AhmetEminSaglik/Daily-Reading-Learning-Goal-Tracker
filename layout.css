@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.header {
+    border: 3px solid red;
+    width: 100%;
+    height: 70px;
+}
+
+.header li {
+    float: left;
+
+}

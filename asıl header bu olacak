@@ -1,0 +1,112 @@
+.header{ margin-bottom: 8%;}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+    color: white;
+    border-left: 1px solid #555;
+}
+
+li:first-child {
+    border-left: none;
+}
+
+li:last-child {
+    border-left: none;
+}
+
+li a {
+    color: white;
+    padding: 16px 16px;
+    /* padding -> dolgu oluyor ve dolgunun işe yaramsı için block veriyoruz*/
+    display: block;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+a.active {
+    background-color: darkred;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.table-with-outside {
+    margin:0 4% 5% 10%;
+    
+
+}
+
+.special-table table,
+th,
+td {
+    border: 2px solid #333;
+}
+
+.special-table {
+    width: 90%;
+    border-collapse: collapse;
+}
+
+.special-table th,
+td {
+    height: 40px;
+    font-size: 20px;
+    /* eğer sutunların widthleri kayarsa bunu aktif et
+    max-width: 10px;*/
+}
+
+.special-table tr:hover {
+    background-color: #a5b1c2;
+
+}
+
+/*
+li a:hover:not(.active)
+*/
+
+
+.table-with-outside h3 {
+    color: #30336b;
+    font-size: 25px;
+    margin-left: 30%;
+
+
+}
+
+.Kelime-ekle a {
+    color: green;
+    font-size: 22px !important;
+    text-decoration: none;
+}
+
+.Kelime-ekle a:hover {
+    text-decoration: underline;
+
+}
+
+.Kelime-sil a:hover {
+    text-decoration: underline;
+}
+
+.Kelime-sil a {
+    color: red;
+    font-size: 22px !important;
+    text-decoration: none;
+}

@@ -1,0 +1,57 @@
+ 
+
+.SideBar ul {
+    list-style-type: none;
+
+    padding: 0 0 0 0%;
+    overflow: hidden;
+    background-color: chocolate;
+    position: fixed;
+
+    width: 15%;
+    height: 100%;
+    margin-top: 3.8%;
+    
+}
+
+.SideBar li {
+
+    color: white;
+    border-left: 1px solid #555;
+    margin-top: 0%;
+    padding-right: 0;
+    margin-right: 0;
+
+}
+
+.SideBar li {
+    border-left: none;
+}
+ 
+.SideBar li a:last-child {
+    border-bottom: 3px solid black;
+    padding-left: 5%;
+    
+    width: 100%;
+}
+
+
+.SideBar li a {
+ 
+    border-bottom: 3px solid black; 
+    
+    
+    color: white;
+    padding: 16px 16px;
+    /* padding -> dolgu oluyor ve dolgunun işe yaramsı için block veriyoruz*/
+    display: block;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+ 
+
+.SideBar li a:hover{
+    background-color: cornflowerblue;
+}

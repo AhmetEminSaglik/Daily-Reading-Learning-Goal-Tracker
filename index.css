@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: white url("./img/work-image-abstract.jpg") no-repeat center fixed;
+  /*bulunan dizinde ise ./ */
+  background-size: 100% 100%;
+  /*background-color: slategrey;
+  /*  background-image: url("./img/work-image.jpg");
+  background-repeat: no-repeat;
+    background:red  url("./img/work-image.jpg") no-repeat center fixed;*/
+}
+
+.Login {
+  color: white;
+  width: 25%;
+  padding: 2%;
+  position: absolute;
+  height: 10%;
+  margin: 12% 6%  0% 12%;
+  background: green;
+  text-align: center;
+  border-radius: 15px;
+  overflow: hidden;
+  opacity: 0.8;
+  transition: height 1s;
+   
+}
+
+.Signup {
+  color: white;
+  width: 25%;
+  padding: 2%;
+  position: absolute;
+  height: 10%;
+  margin: 12% 6%  0% 52%;
+  background: red;
+  text-align: center;
+  border-radius: 15px;
+  overflow: hidden;
+  opacity: 0.8;
+  transition: height .7s;
+  border-radius: 100px;
+ 
+}
+
+.Login h1 {
+  opacity: 1;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 15%;
+}
+
+.Signup h1 {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 15%;
+}
+
+.Login input[type="text"],
+.Login input[type="password"],
+.Signup input[type="text"],
+.Signup input[type="password"],
+.Signup input[type="email"] {
+  height: 7%;
+  margin: auto;
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  font-size: 20px;
+  text-align: center;
+  border: 4px solid #3498db;
+  padding: 14px 10px 5px;
+  width: 200px;
+  outline: none;
+  color: yellow;
+  border-radius: 24px;
+  transition: .3s;
+}
+
+.Login input[type="text"]:focus,
+.Login input[type="password"]:focus,
+.Signup input[type="text"]:focus,
+.Signup input[type="password"]:focus,
+.Signup input[type="email"]:focus {
+  width: 280px;
+  border-color: #2ecc71;
+}
+
+.Login input[type="submit"],
+.Signup input[type="submit"] {
+
+  border: 0px;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.Login input[type="submit"]:hover,
+.Signup input[type="submit"]:hover {
+  background: #2ecc71;
+}
+
+.Login:hover .Container-Login {
+  display: inline;
+
+}
+
+.Login:hover {
+  background-color: #191919;
+  color: orange;
+  height: 51%;
+  opacity: 0.9;
+
+}
+
+.Signup:hover {
+  background-color: #191919;
+  color: orange;
+  height: 57%;
+  opacity: 0.9;
+}
+
+
+.Login:hover .Container-Login {
+  display: inline;
+}
+
+.Signup:hover .Container-Signup {
+  display: inline;
+}
+
+.Container-Signup {
+  display: none;
+
+}
+
+.Container-Login {
+  display: none;
+
+}
+
+.WrongUsernameOrPassword {
+  margin: 3% 5% 5% 9.5%;
+  font-size: 1.5em;
+  padding: 3%;
+  vertical-align: bottom;
+  text-align: center;
+  vertical-align: text-top;
+  background-color: #dfe6e9;
+  position: absolute;
+  color: red;
+  font-weight: bold;
+  border: 3px solid white;
+  border-radius: 1.5em;
+  opacity: 0.8;
+
+}

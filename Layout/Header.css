@@ -1,0 +1,56 @@
+.header {
+    margin-bottom: 8%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+header li {
+    float: left;
+    color: white;
+    border-left: 1px solid #555;
+}
+
+header li:first-child {
+    border-left: none;
+}
+
+header li:last-child {
+    border-left: none;
+}
+
+header li a {
+    color: white;
+    padding: 16px 66px;
+    margin: 0;
+    /* padding -> dolgu oluyor ve dolgunun işe yaramsı için block veriyoruz*/
+    display: block;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+header a.active {
+    background-color: darkred;
+    color:white;
+    text-decoration: none;
+}
+
+header li a:hover:not(.active) {
+    background-color: #111;
+    color:aqua;
+    text-decoration: none;
+}

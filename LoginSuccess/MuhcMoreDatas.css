@@ -1,0 +1,136 @@
+.table-with-outside {
+    margin: 0 5% 5% 20%;
+}
+
+.special-table td {
+    padding-left: 10px;
+}
+
+.special-table table,
+th,
+td {
+    border: 2px solid #333;
+    
+}
+
+tr td:nth-child(2){
+    width: 13%;
+}
+/* tr td:not(:first-child),
+tr td:(:nth-child(2)) {
+    
+    
+
+}  */
+
+
+tbody tr {
+    color: white
+}
+
+.special-table {
+    width: 90%;
+
+    border-collapse: collapse;
+    background-color: #1e272e;
+}
+
+.special-table th,
+td {
+    height: 40px;
+    font-size: 18px;
+    border: 3px solid #808e9b;
+    /* eğer sutunların widthleri kayarsa bunu aktif et
+    max-width: 10px;*/
+}
+
+.special-table tr:hover:not(.not-hover) {
+    background-color: #d2dae2;
+    color: Black;
+
+}
+
+tfoot tr th a {
+    color: brown;
+    text-decoration: none;
+}
+
+
+td:nth-child(2) {
+    width: 11%;
+    text-align: center;
+}
+
+.td-bigger {
+    width: 22.5%;
+    max-width: 22.5%;
+}
+
+.table-with-outside {
+    margin-left: 10%;
+}
+
+.table-with-outside h3 {
+    color: #30336b;
+    font-size: 25px;
+    /* margin-left: 34%; */
+    width: 90%;
+    text-align: center;
+
+
+
+}
+
+.Kelime-ekle a {
+    color: greenyellow;
+    font-size: 22px !important;
+    text-decoration: none;
+}
+
+tr .Kelime-ekle:hover,
+tr .Kelime-sil:hover {
+    background-color: #aaa69d;
+}
+
+
+.Kelime-ekle a:hover,
+.Kelime-sil a:hover {
+    color: orangered;
+
+}
+
+
+
+.Kelime-sil a {
+    color: red;
+    font-size: 22px !important;
+    text-decoration: none;
+}
+
+.form-button {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+
+}
+
+tfoot th button {
+    font-size: 20px;
+    cursor: pointer;
+    color: orangered;
+    font-weight: bold;
+}
+
+tfoot th button:hover {
+    color: purple;
+}
+
+thead tr th,
+tfoot tr:nth-child(1) {
+    color: peru;
+}
+
+tbody tr :first-child {
+    width: 5%;
+}
