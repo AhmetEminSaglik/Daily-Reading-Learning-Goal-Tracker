@@ -76,4 +76,11 @@ The project was created to improve the developer's skills in PHP, HTML, and CSS.
 
 <h2 id="extra-note">6-) Extra Note</h2>
 
-* This project was completed in 2020 when the developer was a second-year university student. While it was a good project at the time, it is now considered far from the Clean Code concept. The database process needs to be refactored, and it would take significant time to add requirements and installation instructions, as well as fix some of the code. The developer has decided that it is not worth the effort to update this project, and has chosen not to include the requirements and installation parts.
+<!-- 
+&nbsp; : 1 space
+&ensp; : 2 space
+&emsp; : 4 space
+
+-->
+
+&emsp;This project was completed in 2020 when the developer was a second-year university student. While it was a good project at the time, it is now considered far from the Clean Code concept. The database process needs to be refactored, and it would take significant time to add requirements and installation instructions, as well as fix some of the code. The developer has decided that it is not worth the effort to update this project, and has chosen not to include the requirements and installation parts.
